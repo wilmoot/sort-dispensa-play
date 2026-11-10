@@ -7,14 +7,15 @@
 <title>Dispensa Pendente</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Fredoka:wght@400;500;600&display=swap" rel="stylesheet">
-  <script type="module" crossorigin src="./assets/index-Dy7ITMEk.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-CWZFrQLV.css">
+  <script type="module" crossorigin src="./assets/index-Oizklllj.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-BusxLOkW.css">
 </head>
 <body>
 <div id="app">
   <div id="wall"></div><div id="light"></div>
   <div id="top" class="layerUI">
     <div id="book"><div class="cover"></div><div class="label"><small>Ricetta n.</small><b id="lvl">1</b></div></div>
+    <button id="purse" aria-label="La cucina: fiocchi e monete"><span><b id="pRibbons">0</b><i class="ribbon"></i></span><span><b id="pCoins">0</b><i class="coin"></i></span><small>cucina</small></button>
     <div id="board"><div class="frame"></div><div class="slate"><small>mosse</small><b id="mv">0</b></div></div>
   </div>
   <div id="note" class="layerUI"></div>
@@ -37,9 +38,10 @@
       <button class="item" id="bJar"><svg width="34" height="48" viewBox="0 0 34 48"><rect x="7" y="2" width="20" height="6" rx="2" fill="rgba(235,245,245,.7)" stroke="rgba(90,70,55,.45)"/><rect x="3" y="8" width="28" height="38" rx="7" fill="rgba(235,248,248,.35)" stroke="rgba(90,70,55,.45)" stroke-width="1.5"/><rect x="7" y="13" width="3" height="24" rx="1.5" fill="rgba(255,255,255,.75)"/></svg><span>barattolo</span><i class="cnt" id="cJar">1</i></button>
       <button class="item" id="bRadio" aria-label="Impostazioni"><svg width="46" height="44" viewBox="0 0 46 44"><line x1="30" y1="10" x2="40" y2="1" stroke="#5a4636" stroke-width="2" stroke-linecap="round"/><rect x="2" y="10" width="42" height="32" rx="7" fill="#c9824f" stroke="#8a5229" stroke-width="1.5"/><circle cx="15" cy="26" r="9" fill="#f1e3c6" stroke="#8a5229"/><g stroke="#b99a72" stroke-width="1"><line x1="9" y1="22" x2="21" y2="22"/><line x1="8" y1="26" x2="22" y2="26"/><line x1="9" y1="30" x2="21" y2="30"/></g><rect x="28" y="17" width="11" height="6" rx="2" fill="#f1e3c6"/><circle cx="31" cy="33" r="3" fill="#6d3a1d"/><circle cx="38" cy="33" r="3" fill="#6d3a1d"/></svg><span>radio</span></button>
     </div>
-    <div class="legend" id="legend">versione di sviluppo · pubblicità e acquisti simulati</div>
+    <button class="legend" id="legend">versione di prova · <u>dimmi cosa ne pensi</u></button>
   </div>
 </div>
+<div id="home" role="dialog" aria-label="La cucina della nonna"></div>
 <div id="modal"><div class="page" id="card"></div></div>
 <div id="toast"></div>
 <svg id="hand" viewBox="0 0 48 56" width="56" height="64" aria-hidden="true"><path d="M17 26 V8 a4 4 0 0 1 8 0 V24 M25 22 a4 4 0 0 1 8 0 V28 M33 26 a4 4 0 0 1 8 0 V36 C41 48 33 54 24 54 C15 54 10 48 7 41 L3 31 a4 4 0 0 1 7-4 L17 35 Z" fill="#fff6e6" stroke="#4a2f1d" stroke-width="2.4" stroke-linejoin="round"/></svg>
