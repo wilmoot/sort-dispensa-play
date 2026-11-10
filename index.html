@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="theme-color" content="#2a1a10">
+<title>Dispensa Pendente</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Fredoka:wght@400;500;600&display=swap" rel="stylesheet">
+  <script type="module" crossorigin src="./assets/index-Dy7ITMEk.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-CWZFrQLV.css">
+</head>
+<body>
+<div id="app">
+  <div id="wall"></div><div id="light"></div>
+  <div id="top" class="layerUI">
+    <div id="book"><div class="cover"></div><div class="label"><small>Ricetta n.</small><b id="lvl">1</b></div></div>
+    <div id="board"><div class="frame"></div><div class="slate"><small>mosse</small><b id="mv">0</b></div></div>
+  </div>
+  <div id="note" class="layerUI"></div>
+  <div id="stage" class="layerUI">
+    <div id="shelfWrap">
+      <div id="jars"></div>
+      <div id="plank">
+        <svg class="bracket" id="brL" viewBox="0 0 44 52"><path d="M4 2 V10 Q4 46 40 48" fill="none" stroke="#2d2420" stroke-width="5" stroke-linecap="round"/><path d="M4 22 Q14 22 16 32 Q18 40 26 40" fill="none" stroke="#2d2420" stroke-width="3" stroke-linecap="round"/><circle cx="26" cy="38" r="3" fill="#2d2420"/></svg>
+        <svg class="bracket" id="brR" viewBox="0 0 44 52"><path d="M4 2 V10 Q4 46 40 48" fill="none" stroke="#2d2420" stroke-width="5" stroke-linecap="round"/><path d="M4 22 Q14 22 16 32 Q18 40 26 40" fill="none" stroke="#2d2420" stroke-width="3" stroke-linecap="round"/><circle cx="26" cy="38" r="3" fill="#2d2420"/></svg>
+        <div class="tag" id="tagL">← inclina</div>
+        <div class="tag" id="tagR">inclina →</div>
+      </div>
+    </div>
+  </div>
+  <div id="counter">
+    <div id="items">
+      <div class="item" id="wedgeBox" title="Inclinazioni rimaste"><div id="wedges"></div><span>zeppe</span></div>
+      <button class="item" id="bUndo"><svg width="34" height="48" viewBox="0 0 34 48"><rect x="2" y="1" width="30" height="5" rx="2" fill="#7a4a28"/><rect x="2" y="42" width="30" height="5" rx="2" fill="#7a4a28"/><rect x="4" y="6" width="3" height="36" fill="#9b6a40"/><rect x="27" y="6" width="3" height="36" fill="#9b6a40"/><path d="M9 7 H25 Q25 20 17 24 Q25 28 25 41 H9 Q9 28 17 24 Q9 20 9 7Z" fill="rgba(220,240,240,.55)" stroke="#d9e8e8" stroke-width="1"/><path d="M12 33 Q17 29 22 33 L24 40 H10Z" fill="#e7c48a"/><path d="M13 12 H21 Q20 18 17 21 Q14 18 13 12Z" fill="#e7c48a"/></svg><span>annulla</span><i class="cnt" id="cUndo">3</i></button>
+      <button class="item" id="bPin"><svg width="40" height="48" viewBox="0 0 40 48"><path d="M6 20 Q6 46 20 46 Q34 46 34 20Z" fill="#8f6a8f"/><ellipse cx="20" cy="20" rx="14" ry="4" fill="#a780a7"/><rect x="11" y="2" width="5" height="22" rx="2" fill="#d9b483" transform="rotate(-10 13 13)"/><rect x="19" y="0" width="5" height="24" rx="2" fill="#e3c08f" transform="rotate(6 21 12)"/><rect x="25" y="4" width="5" height="20" rx="2" fill="#d2ab78" transform="rotate(16 27 14)"/></svg><span>mollette</span><i class="cnt" id="cPin">2</i></button>
+      <button class="item" id="bJar"><svg width="34" height="48" viewBox="0 0 34 48"><rect x="7" y="2" width="20" height="6" rx="2" fill="rgba(235,245,245,.7)" stroke="rgba(90,70,55,.45)"/><rect x="3" y="8" width="28" height="38" rx="7" fill="rgba(235,248,248,.35)" stroke="rgba(90,70,55,.45)" stroke-width="1.5"/><rect x="7" y="13" width="3" height="24" rx="1.5" fill="rgba(255,255,255,.75)"/></svg><span>barattolo</span><i class="cnt" id="cJar">1</i></button>
+      <button class="item" id="bRadio" aria-label="Impostazioni"><svg width="46" height="44" viewBox="0 0 46 44"><line x1="30" y1="10" x2="40" y2="1" stroke="#5a4636" stroke-width="2" stroke-linecap="round"/><rect x="2" y="10" width="42" height="32" rx="7" fill="#c9824f" stroke="#8a5229" stroke-width="1.5"/><circle cx="15" cy="26" r="9" fill="#f1e3c6" stroke="#8a5229"/><g stroke="#b99a72" stroke-width="1"><line x1="9" y1="22" x2="21" y2="22"/><line x1="8" y1="26" x2="22" y2="26"/><line x1="9" y1="30" x2="21" y2="30"/></g><rect x="28" y="17" width="11" height="6" rx="2" fill="#f1e3c6"/><circle cx="31" cy="33" r="3" fill="#6d3a1d"/><circle cx="38" cy="33" r="3" fill="#6d3a1d"/></svg><span>radio</span></button>
+    </div>
+    <div class="legend" id="legend">versione di sviluppo · pubblicità e acquisti simulati</div>
+  </div>
+</div>
+<div id="modal"><div class="page" id="card"></div></div>
+<div id="toast"></div>
+<svg id="hand" viewBox="0 0 48 56" width="56" height="64" aria-hidden="true"><path d="M17 26 V8 a4 4 0 0 1 8 0 V24 M25 22 a4 4 0 0 1 8 0 V28 M33 26 a4 4 0 0 1 8 0 V36 C41 48 33 54 24 54 C15 54 10 48 7 41 L3 31 a4 4 0 0 1 7-4 L17 35 Z" fill="#fff6e6" stroke="#4a2f1d" stroke-width="2.4" stroke-linejoin="round"/></svg>
+
+</body>
+</html>
