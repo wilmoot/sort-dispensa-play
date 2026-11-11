@@ -7,8 +7,9 @@ Music by YannZ – https://yannz.itch.io
 Spotify: https://open.spotify.com/intl-it/artist/76CUcHd0t0XViSm9YBbHBw
 Licenza: Creative Commons Attribution 4.0 International (CC BY 4.0) – https://creativecommons.org/licenses/by/4.0/
 
-Brani usati (in `public/audio/music/`): "lvl 0 (the tutorial)", "lvl 2 (the village)", "lvl 5 (the oasis or resting place)".
+Brani usati (in `public/audio/music/`): "lvl 0 (the tutorial)", "lvl 2 (the village)", "lvl 3 (the grassland)", "lvl 5 (the oasis or resting place)", "lvl 6 (the beach)".
 Modifiche: ricompressi in OGG Vorbis (q3) e MP3 (112 kbps) per il telefono e tolta la copertina incorporata;
+nel gioco vengono riprodotti in ordine casuale con dissolvenze incrociate e volume livellato tra i brani;
 i metadati originali (titolo, autore, licenza) sono conservati nei file.
 
 ## Suoni
