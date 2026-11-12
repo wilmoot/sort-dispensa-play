@@ -17,3 +17,8 @@ i metadati originali (titolo, autore, licenza) sono conservati nei file.
 **"UI Audio"** di **Kenney (www.kenney.nl)** – Creative Commons Zero (CC0) – http://creativecommons.org/publicdomain/zero/1.0/
 File usati (in `public/audio/sfx/`): rollover2, rollover5, rollover6, click5, switch20, switch25, switch30
 (OGG originali + copia MP3 per i browser senza OGG). Nel gioco sono filtrati e intonati in tempo reale.
+
+## Caratteri
+
+**Caveat** (Impallari Type) e **Fredoka** (Milena Brandão, Hafontia) – SIL Open Font License 1.1 – https://openfontlicense.org
+Inclusi nel gioco tramite i pacchetti @fontsource (nessuna richiesta a server esterni).
